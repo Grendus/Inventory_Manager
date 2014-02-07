@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/editText1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:text="@string/app_name"/>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="362dp" >
+
+                <ScrollView
+                    android:id="@+id/scroll_view_1"
+                    android:layout_width="231dp"
+                    android:layout_height="fill_parent" >
+	
+	                <TextView
+	                    android:id="@+id/inventory_display"
+	                    android:layout_width="244dp"
+	                    android:layout_height="wrap_content"
+	                    android:ems="10"/>
+				</ScrollView>
+                <TableLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+					<TableRow >
+	                    <Button
+	                        android:id="@+id/up_one"
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="wrap_content"
+	                        android:text="@string/plus" />
+					</TableRow>
+					<TableRow>
+	                    <Button
+	                        android:id="@+id/down_one"
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="wrap_content"
+	                        android:text="@string/minus" />
+					</TableRow>
+					<TableRow>
+	                    <Button
+	                        android:id="@+id/new_item"
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="wrap_content"
+	                        android:text="@string/add_item" />
+					</TableRow>
+					<TableRow>
+	                    <Button
+	                        android:id="@+id/remove_item"
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="wrap_content"
+	                        android:text="@string/remove_item" />
+                    </TableRow>
+
+					<Button
+					    android:id="@+id/save_button"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:text="@string/save" />
+
+					<Button
+					    android:id="@+id/load_button"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:text="@string/load" />
+
+					<Button
+					    android:id="@+id/delete_button"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:text="@string/delete" />
+
+                </TableLayout>
+
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+                <TableRow>
+	                <Button
+	                    android:id="@+id/add_1"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="@string/plus_1" />
+	
+	                <Button
+	                    android:id="@+id/add_5"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="@string/plus_5" />
+	
+	                <Button
+	                    android:id="@+id/sell_1"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="@string/minus_1" />
+	
+	                <Button
+	                    android:id="@+id/sell_5"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="@string/minus_5" />
+
+	            </TableRow>
+
+                <EditText
+                    android:id="@+id/new_item_name"
+       				android:inputType="textShortMessage|textAutoCorrect|textCapSentences|textMultiLine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10" />
+
+            </TableLayout>
+
+        </LinearLayout>

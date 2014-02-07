@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, InventoryTrackerActivity!</string>
+    <string name="app_name">Inventory Tracker</string>
+    <string name="title">Inventory Manager</string>
+    <string name="plus">^</string>
+    <string name="minus">v</string>
+    <string name="add_item">New Item</string>
+    <string name="remove_item">Remove Item</string>
+    <string name="plus_1">+1</string>
+    <string name="plus_5">+5</string>
+    <string name="minus_1">-1</string>
+    <string name="minus_5">-5</string>
+    <string name="load">Load Inventory</string>
+    <string name="save">Save Inventory</string>
+    <string name="delete">Delete Inventory</string>
+    <string name="Delete">Delete</string>
+
+</resources>
